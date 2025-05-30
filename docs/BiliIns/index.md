@@ -11,7 +11,6 @@
 
 **请[下载发行版](https://github.com/ZeroMi-Studio/BiliIns/releases/)，可开箱即用，源代码中由于Github大小限制删除了部分py库，直接下载无法运行**
 
-若下载源码需自行二改的，下载源码后请前往[https://www.123684.com/s/1PFVVv-6yEKd](https://www.123684.com/s/1PFVVv-6yEKd)下载py库文件，将下载下来的文件放置到python文件夹内，无需解压，无需解压，无需解压！
 
 ### 第一步：启动服务端
 1. 双击运行 `BiliIns.exe`（Windows系统，小白推荐，开箱即用）
