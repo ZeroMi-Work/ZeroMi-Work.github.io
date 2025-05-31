@@ -22,7 +22,7 @@ DeepSeek目前支持`deepseek-chat`和`deepseek-reasoner`模型，两者差异�
 
 ## 接入BiliIns
 ### 修改配置文件
-打开`setting.json`（`vim setting.json`），修改`"type": "false",`为`"type": "deepseek",`，`"key": "",`修改为你刚才生成的API Keys，如`"key": "sk-eecc677190d34f99b4e5fc6c8b497700",`
+打开`setting.json`，修改`"type": "false",`为`"type": "deepseek",`，`"key": "",`修改为你刚才生成的API Keys，如`"key": "sk-eecc677190d34f99b4e5fc6c8b497700",`
 
 接下来，修改`"AIName": "deepseek-chat",`为你需要的模型名称，建议保持默认即可
 
