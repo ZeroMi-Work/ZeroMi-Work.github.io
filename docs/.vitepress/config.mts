@@ -18,8 +18,8 @@ export default defineConfig({
     sidebar: [
       {
         text: '关于我们',
-        collapsible: true, // 是否可折叠
-        collapsed: false,  // 默认是否折叠
+        collapsible: true, 
+        collapsed: false,
         items: [
           { text: '关于我们', link: '/About-Us' },
           { text: 'Github', link: 'https://github.com/ZeroMi-Studio/' },
@@ -28,11 +28,19 @@ export default defineConfig({
       },
       {
         text: 'BiliIns',
-        collapsible: true, // 是否可折叠
-        collapsed: true,  // 默认是否折叠
+        collapsible: true,
+        collapsed: true,
         items: [
           { text: '开始使用', link: '/BiliIns/' },
           { text: '配置文件', link: '/BiliIns/Setting' },
+          {
+            text: 'AI对接',
+            collapsible: true,
+            items: [
+              { text: 'Ollama', link: '/BiliIns/AI-Api/Ollama' },
+              { text: 'DeepSeek', link: '/BiliIns/AI-Api/DeepSeek' }
+            ]
+          },
           { text: '帮助与答疑', link: '/BiliIns/Q&A' },
           { text: '开发文档', link: '/BiliIns/Dev-Guide' }
         ]
