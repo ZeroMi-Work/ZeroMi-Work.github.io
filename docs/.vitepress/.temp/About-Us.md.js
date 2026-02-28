@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"关于我们","description":"","frontmatter":{},"headers":[],"relativePath":"About-Us.md","filePath":"About-Us.md"}');
+const _sfc_main = { name: "About-Us.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="关于我们" tabindex="-1">关于我们 <a class="header-anchor" href="#关于我们" aria-label="Permalink to &quot;关于我们&quot;">​</a></h1><p>我们是一个专注计算机程序开发、技术定制的团队，依靠对开发的热爱，共同建立起这个共同咕咕恰饭的鸽巢</p><h2 id="最近在恰什么粮" tabindex="-1">最近在恰什么粮 <a class="header-anchor" href="#最近在恰什么粮" aria-label="Permalink to &quot;最近在恰什么粮&quot;">​</a></h2><h3 id="最近项目" tabindex="-1">最近项目 <a class="header-anchor" href="#最近项目" aria-label="Permalink to &quot;最近项目&quot;">​</a></h3><table tabindex="0"><thead><tr><th>项目名称</th><th>简述</th><th>应用场景</th></tr></thead><tbody><tr><td><strong>CC-TEAM-WEB-Zero</strong></td><td>为小型团队提供的免费开源团队官网解决方案</td><td>团队官网、企业官网</td></tr><tr><td><strong>BiliIns</strong></td><td>为Bilibili创作者提供的免费开源的数据分析平台（支持本地AI接入）</td><td>Bilibili创作者数据分析/稿件对比</td></tr><tr><td><strong>RedstoneCode Studio</strong></td><td>一个可视化 Minecraft 插件开发工具</td><td>MineCraft Spigot 插件开发</td></tr></tbody></table><h2 id="加入我们" tabindex="-1">加入我们 <a class="header-anchor" href="#加入我们" aria-label="Permalink to &quot;加入我们&quot;">​</a></h2><p>无论你是后端开发者，还是擅长前端的UI工程师，亦或是热衷技术的社区运营者，这里都有你的位置：</p><ul><li><strong>贡献者通道</strong>：提交Issue反馈需求，或直接通过Pull Request参与代码共建</li><li><strong>技术交流</strong>：如果你是小白，这里或许有许多大佬可以给你帮助；如果你是大佬，这里或许有许多小白等你拯救</li></ul><h2 id="联系我们" tabindex="-1">联系我们 <a class="header-anchor" href="#联系我们" aria-label="Permalink to &quot;联系我们&quot;">​</a></h2><p>请您直接说明来意，工作联系方式不接受闲聊</p><p>E-mail: <a href="mailto:contact@zeromi.cn" target="_blank" rel="noreferrer">contact@zeromi.cn</a></p><p>Lark: <a href="https://www.feishu.cn/invitation/page/add_contact/?token=20cnc61e-a699-47af-91a6-99795e610b17&amp;unique_id=lGu75AguJuYFt4aWTWYGOQ==" target="_blank" rel="noreferrer">CHenmy</a></p></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("About-Us.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const AboutUs = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  AboutUs as default
+};
