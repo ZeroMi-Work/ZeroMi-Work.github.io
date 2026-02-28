@@ -24,5 +24,8 @@ features:
   - title: CC-TEAM-WEB-Zero
     details: CC-TEAM-WEB-Zero 团队官网
     link: https://github.com/ZeroMi-Work/CC-TEAM-WEB-Zero/
+  - title: RedstoneCode Studio
+    details: 一个可视化 Minecraft 插件开发工具
+    link: https://github.com/Benxpawa/RedstoneCodeStudio
 ---
 
