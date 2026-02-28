@@ -44,7 +44,7 @@ export default defineConfig({
           { text: '帮助与答疑', link: '/BiliIns/Q&A' },
           { text: '开发文档', link: '/BiliIns/Dev-Guide' }
         ]
-      }
+      },
       {
         text: 'RedstoneCode Studio',
         collapsible: true,
