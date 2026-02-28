@@ -45,6 +45,15 @@ export default defineConfig({
           { text: '开发文档', link: '/BiliIns/Dev-Guide' }
         ]
       }
+      {
+        text: 'RedstoneCode Studio',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: '开始使用', link: '/RCStudio/' },
+          { text: '帮助与答疑', link: '/RCStudio/Q&A' }
+        ]
+      }
     ]
 
     //socialLinks: [
